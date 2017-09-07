@@ -2,7 +2,7 @@
 layout: ‘n
 title: "git 操作"
 date: 2017-09-04 13:34:03
-tags:
+tags: [编程]
 ---
 一、clone Repository
 clone Github 上的Repository，如下： git clone git@github.com:FBing/design-patterns.git

@@ -55,6 +55,18 @@ index_generator:
 # Category & Tag
 default_category: uncategorized
 category_map:
+    编程: programming
+    生活: life
+    其他: other
+    css:  css
+    javascript: javascript
+    angular: angular
+    webpack: webpack
+    vue: vue
+    nodejs: nodejs
+    hexo: hexo
+    jade: jade
+    ejs: ejs
 tag_map:
 
 # Date / Time format
