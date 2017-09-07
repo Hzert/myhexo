@@ -5,27 +5,10 @@ date: 2017-09-02 17:16:03
 <center>
     <p><img src="http://7xlfkx.com1.z0.glb.clouddn.com/white2.jpg" align="center"></p>
 </center>
-
 我是刘振华，博客：[zhenhualiu.com](zhenhualiu.com)
 ###坚信
-
-
-
 - 一切技能皆可习得，包括写代码
 - 「持续」并不是坚持，做就是最好的回报
-
-
-<h3>关注：</h3>
-
-
-- [元认知](http://www.mesule.com/)
-- 写作
-- Python
-- [阳志平](http://www.yangzhiping.com/)
-- [ZoomQuiet](http://blog.zoomquiet.io/)
-
-
-
 
 <h3>推荐的大神：</h3>
 

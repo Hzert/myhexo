@@ -2,7 +2,7 @@
 layout: ‘n
 title: "Hexo Docs基本用法"
 date: 2017-09-04 13:34:03
-tags:[生活,感悟,总结]
+tags:[生活]
 ---
 
 
@@ -45,7 +45,7 @@ YAML方式，以三短线结束
 
 title: Hello World
 date: 2013/7/13 20:46:25
----
+
 JSON方式，以三分号结束
 
 "title": "Hello World",

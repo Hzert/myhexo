@@ -79,3 +79,20 @@ tags: [编程]
 	git branch -d dev
 	git push origin :dev
 {% endcodeblock %}
+
+查看与github绑定的地址
+{% codeblock %}
+	git push -u origin master 
+{% endcodeblock %}
+1.将关联错误的远程库移除
+{% codeblock %}
+	git remote rm origin
+{% endcodeblock %}
+2.重新关联远程库
+{% codeblock %}
+	git remote add origin git@github.com/Hzert/myhexo.git
+{% endcodeblock %}
+
+
+
+-别的资源：http://www.jianshu.com/p/5dfa49a97ce8
