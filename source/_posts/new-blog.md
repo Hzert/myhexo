@@ -3,6 +3,7 @@ layout: ‘n
 title: "git 操作"
 date: 2017-09-04 13:34:03
 tags: [编程]
+categories: [编程]
 ---
 
 1.git 的一些命令
