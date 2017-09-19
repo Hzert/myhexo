@@ -32,3 +32,8 @@ link：
 {% post_path slug %}
 dada
 {% post_link slug [title] %}
+
+{% img [class names] ../img/01.jpg [width] [height] [title text [alt text]] %}
+{% link 百度一下 http://www.baidu.com [这是什么] [超链接] %}
+{% jsfiddle AntBody/138zf8kk js,html,css,result dark %}
+{% iframe http://v.youku.com/v_show/id_... 930 542 %}
