@@ -4,7 +4,7 @@ date: 2017-09-25 11:14:37
 tags: [编程]
 categories: [编程]
 ---
-![](../img/fileStruct.png)
+![](/img/fileStruct.png)
 
 main.js是入口文件，主要作用是初始化vue实例并使用需要的插件
 
