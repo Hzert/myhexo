@@ -25,5 +25,20 @@ npm i
 接着使用 npm run dev 在热加载中运行我们的应用
 这一行命令代表着它会去找到package.json的scripts对象，执行node bulid/dev-server.js。在这文件里，配置了Webpack，会让它去编译项目文件，并且运行服务器，我们在localhost:8080即可查看我们的应用。
 
+
+### mac 安装vue-cli
+
+{%codeblock%}
+npm install vue-cli -g
+
+vue //查看是否安装成功
+
+vue init webpack-simple demo //新建vue项目demo名随便取
+然后依次输入项目名，描述等
+切换到项目下安装依赖
+npm install
+npm run dev    //运行项目
+{%endcodeblock%}
+
  
 链接：http://www.imooc.com/article/details/id/6991
