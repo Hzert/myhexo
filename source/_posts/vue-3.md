@@ -1,7 +1,7 @@
 ---
 title: vue-3
 date: 2017-09-25 11:14:37
-tags: [编程]
+tags: [vue]
 categories: [编程]
 ---
 ![](/img/fileStruct.png)

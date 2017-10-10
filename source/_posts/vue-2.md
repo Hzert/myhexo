@@ -1,7 +1,7 @@
 ---
-title: vue(1)
+title: vue(2)
 date: 2017-09-22 17:02:45
-tags: [前端][vue]
+tags: [vue]
 categories: [编程]
 ---
 
@@ -35,7 +35,7 @@ new Vue({
 })
 {%endcodeblock%}
 {%codeblock%}
-<p>{{a}}</p>
+<p>&#123;&#123;a&#125;&#125;</p>
 {%endcodeblock%}
 视图的p标签里对应着data 里面的数据a
 
@@ -52,9 +52,7 @@ new Vue({
         }
     }
 })
-{%endcodeblocl%}
-
-
+{%endcodeblock%}
 ### watch 
 {%codeblock%}
 new Vue({
@@ -78,7 +76,7 @@ new Vue({
 
 ### 模版指令——html和vue对象的粘合剂
 
-数据渲染：v-text、v-html、{{}}
+数据渲染：v-text、v-html、&#123;&#123;&#125;&#125;
 {%codeblock%}
 <p>{{a}}</p>
 <p v-text='a'></p>

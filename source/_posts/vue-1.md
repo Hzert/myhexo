@@ -1,7 +1,7 @@
 ---
 title: vue(1)
 date: 2017-09-22 17:02:45
-tags: [前端]
+tags: [vue]
 categories: [编程]
 ---
 ### 安装
