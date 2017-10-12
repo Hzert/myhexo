@@ -1,5 +1,5 @@
 ---
-title: vue-5
+title: vue遇到的坑
 date: 2017-10-10 13:50:09
 tags: [vue]
 categories: [编程]

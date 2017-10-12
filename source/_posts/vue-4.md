@@ -1,5 +1,5 @@
 ---
-title: vue-4
+title: vue组件开发~轮播图
 date: 2017-09-28 09:25:31
 tags: [vue]
 categories: [编程]

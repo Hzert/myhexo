@@ -1,5 +1,5 @@
 ---
-title: vue-3
+title: webpack +vue+vueRouter模块化构建完整项目实例
 date: 2017-09-25 11:14:37
 tags: [vue]
 categories: [编程]
