@@ -60,7 +60,7 @@ router.start(App, 'app')
 
 ### 编辑项目目录以及添加代码
 11.文件目录如下;
-![](../img/articlex.png)
+![](/img/articlex.png)
 
 //dist文件是后面执行webpack指令生产的，不用管；
 
