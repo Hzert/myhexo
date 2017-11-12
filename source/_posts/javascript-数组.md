@@ -69,3 +69,86 @@ for(var i=0;i<arr.length;i++){
   console.log(i);        //0,1,2,3,4
 }
 {%endcodeblock%}
+
+3.forEach 遍历数组
+{%codeblock%}
+var first = [0,1,3,4,5,63];
+first.forEach(function(item,index,array){
+  console.log(item,index);
+});
+// 0  0
+// 1  1
+// 2  2
+{%endcodeblock%}
+
+## 取数组最大值，最小值
+{%codeblock%}
+Math.max.apply(null,[1,2,3,43,4])
+Math.min.apply(null,[1,2,3,42,4])
+{%endcodeblock%}
+
+### 添加元素到数组的末尾  push()到数组末尾 添加
+{%codeblock%}
+var fruits = ['apple','Banana']
+var newLength = fruits.push('Orange');
+console.log(newLength)
+// ['apple','Banana','Orange']
+{%endcodeblock%}
+
+### 删除数组末尾的元素 pop() 删除
+{%codeblock%}
+let last = fruits.pop();
+//remove Orange(from the end)
+//['apple,Banana'];
+{%endcodeblock%}
+
+### 删除数组最前面（头部）的元素  shift()
+{%codeblock%}
+  let first = fruits.shift();
+  // remove apple from the front
+  //['Banana']
+{%endcodeblock%}
+
+### 添加到数组的前面（头部） unshift()
+{%codeblock%}
+let newLength = fruits.unshift('Strawberry');
+// add to the front
+// ['Strawberry','Banana'];
+{%endcodeblock%}
+
+### 找到某个元素在数组中的索引  indexOf()
+{%codeblock%}
+fruits.push('Mango');
+// ['Strawberry','Banana','Mango'];
+
+let index = fruits.indexOf('Banana');
+//1
+{%endcodeblock%}
+
+### 通过索引删除某个元素  splice(pos,index)
+{%codeblock%}
+let removedItem = fruits.splice(pos,1)
+//['Strawberry','Mango']
+{%endcodeblock%}
+
+### 从一个索引位置删除多个元素
+{%codeblock%}
+let vegetables = ['Cabbage','Turnip','Radish','Carrot'];
+console.log(vegetables);
+//['Cabbage','Turnip','Radish','Carrot']
+
+let pos = 1, n = 2;
+
+let removedItems = vegetables.splice(pos,n);
+console.log(vegetables);
+//['Cabbage','Carrot']
+
+console.log(removedIetms);
+//['Turnip','Radish']
+{%endcodeblock%}
+
+### 复制一个数组   slice()
+{%codebolock%}
+var shallowCopy = fruits.slice();
+//['Strawberry','Mango']
+{%endcodeblock%}
