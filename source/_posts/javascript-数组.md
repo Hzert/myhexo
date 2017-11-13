@@ -148,7 +148,7 @@ console.log(removedIetms);
 {%endcodeblock%}
 
 ### 复制一个数组   slice()
-{%codebolock%}
+{%codeblock%}
 var shallowCopy = fruits.slice();
 //['Strawberry','Mango']
 {%endcodeblock%}
