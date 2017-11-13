@@ -148,3 +148,22 @@ git checkout master  # 切换到master分支
 git branch -d dev  # 删除本地dev分支
 
 -别的资源：http://www.jianshu.com/p/5dfa49a97ce8
+
+##配置用户名和邮箱
+{%codeblock%}
+git config --global user.name "用户名"
+git config --global user.email "邮箱地址"
+{%endcodeblock%}
+
+## 重点！！ git 修改远程仓库地址
+方法有三种：
+1.修改命令
+{%codeblock%}
+git remote origin set-url [url]
+{%endcodeblocl%}
+2.先删后加
+{%codeblock%}
+git remote rm origin
+git remote add origin [url]
+{%endcodeblock%}
+3.直接修改config文件
