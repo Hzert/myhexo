@@ -152,3 +152,16 @@ input[type="checkbox"]:checked:disabled + i,input[type="radio"]:checked:disabled
   重点在 align-items:center;
         justify-content:center
 {%endcodeblock%}
+
+
+### input 和span 同一行不对齐的情况。
+
+解决方案：
+{%codeblock%}
+<div class="coverSearch">
+  <span class="fl"><input type="text" class="searchSceneP" placeholder="场景包"></span>
+  <span class="ScenePbtn btn-warning cursor"style="margin-left:0">查询</span>
+</div>
+
+就是在input 外面套一层span ，并让span 浮动
+{%endcodeblock%}
