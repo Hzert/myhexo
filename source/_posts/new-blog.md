@@ -160,10 +160,11 @@ git config --global user.email "邮箱地址"
 1.修改命令
 {%codeblock%}
 git remote origin set-url [url]
-{%endcodeblocl%}
+{%endcodeblock%}
 2.先删后加
 {%codeblock%}
 git remote rm origin
 git remote add origin [url]
 {%endcodeblock%}
 3.直接修改config文件
+
