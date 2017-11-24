@@ -2,7 +2,7 @@
 title: angular
 date: 2017-09-19 16:39:22
 tags: [angular]
-categories: [编程]
+categories: [编程,angular]
 ---
 ### 1.关于angularjs
 

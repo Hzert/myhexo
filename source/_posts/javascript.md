@@ -2,8 +2,8 @@
 layout: begin
 title:  javascript
 date: 2017-09-18 16:18:43
-tags: [前端,javascript]
-categories: [编程]
+tags: [前端,javascript,css3]
+categories: [编程,javascript]
 ---
 
 ### 一.js的数据类型和变量

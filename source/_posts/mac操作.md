@@ -2,7 +2,7 @@
 title: mac操作
 date: 2017-09-22 17:02:45
 tags: [mac]
-categories: [编程]
+categories: [编程,mac]
 ---
 
 ## mac 终端 常用命令

@@ -2,7 +2,7 @@
 title: javascript-数组操作
 date: 2017-10-26 13:15:38
 tags: [javascript,前端]
-categories:
+categories: [javascript]
 ---
 在实际的一些项目中，有很多都是用到数组的一些操作，所以今天先把数组的一些方法和函数学习学习。
 
