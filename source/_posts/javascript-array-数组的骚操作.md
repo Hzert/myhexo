@@ -42,7 +42,6 @@ b => 当前值
 c => 当前值的索引
 d => array 数组
 
-
 求和。
 [1,2,3,4,5].reduce(function(a,b){
   return a+b
