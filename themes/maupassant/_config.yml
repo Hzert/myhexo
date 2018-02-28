@@ -1,12 +1,16 @@
 fancybox: true ## 是否启用Fancybox图片灯箱效果 true/false.
 disqus: ## disqus用户名，为空则不使用
-google_search: true ## 使用google搜索引擎, true/false.
-baidu_search: ## 使用百度搜索引擎, true/false.
-google_analytics: ## Google统计ID
-baidu_analytics: ## 百度统计ID
+google_search: false ## 使用google搜索引擎, true/false.
+baidu_search: true ## 使用百度搜索引擎, true/false.
+google_analytics: true ## Google统计ID
+baidu_analytics: true ## 百度统计ID
+google_site_verification: true
+baidu_site_verification: true
 show_category_count: true ## 如果你想显示侧边栏分类下的文章数量，请设置值为true
 busuanzi: true ## 使用不蒜子统计文章访问量 true/false
-
+toc_number: true
+canvas_nest: true
+donate: true
 ## 头部菜单
 menu: 
   - page: home
@@ -16,7 +20,7 @@ menu:
   - page: about
     directory: about/
   - page: rss
-    directory: atom.xml
+    directory: links/
 
 ## 侧边栏小工具设置: search, category, tag, recent_posts, links
 widgets:
@@ -29,7 +33,7 @@ widgets:
 ## 侧边栏链接
 links: 
   - title: 标题
-    url: http://www.example.com
+    url: http://zhenhualiu.com
 
 ## 静态文件目录
 js: js
