@@ -2,7 +2,7 @@
 title: vue组件element-ui
 date: 2017-09-29 13:11:57
 tags: [vue]
-categories: [编程]
+categories: [前端, vue]
 ---
 ## 安装element-ui
 {%codeblock%}

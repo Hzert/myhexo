@@ -2,7 +2,7 @@
 title: webpack +vue+vueRouter模块化构建完整项目实例
 date: 2017-09-25 11:14:37
 tags: [vue]
-categories: [编程]
+categories: [前端, vue]
 ---
 ![](/img/fileStruct.png)
 

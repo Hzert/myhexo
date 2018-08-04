@@ -2,7 +2,7 @@
 title: vue初始项目发布到码云上的pages上可以直接访问！
 date: 2018-01-11 15:20:54
 tags: [vue,js]
-categories: [编程,vue,javacript]
+categories: [前端, vue]
 ---
 ## 使用vue-cli构建一个新项目发布到gitee.com上并浏览
 主要是想做一个自己的项目，然后还可以访问，之前有用hexo ＋ github pages 弄了一个博客，简单的博客，也就是现在这个，然后买了自己的域名，现在这个是想做一个其他的项目，为自己的简历加上一笔，然后目前选择的是gitee.com的一个pages服务，然后用了vue cli构建 ，慢慢学，慢慢做！

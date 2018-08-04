@@ -2,7 +2,7 @@
 title: vue遇到的坑
 date: 2017-10-10 13:50:09
 tags: [vue]
-categories: [编程]
+categories: [前端, vue]
 ---
 原文链接：http://mrzhang123.github.io/2016/07/14/summarize-vue/
 

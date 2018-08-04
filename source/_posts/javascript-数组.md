@@ -6,6 +6,13 @@ categories: [javascript]
 ---
 在实际的一些项目中，有很多都是用到数组的一些操作，所以今天先把数组的一些方法和函数学习学习。
 
+### 数组原型提供的方法很多，主要分为三种，一种会改变自身值的，一种是不会改变自身值的，另外一种是遍历方法
+### 一、基于ES6，改变自身值的方法一共有9个，分别为pop、push、reverse、shift、sort、splice、unshift，以及两个ES6新增的方法copyWithin 和 fill。
+### 二、基于ES7，不会改变自身的方法一共有9个，分别为concat、join、slice、toString、toLocateString、indexOf、lastIndexOf、未标准的toSource以及ES7新增的方法includes
+### 三、基于ES6，不会改变自身的方法一共有12个，分别为forEach、every、some、filter、map、reduce、reduceRight 以及ES6新增的方法entries、find、findIndex、keys、values。
+
+
+
 ### Array数组对象用来在单独的变量名中存储一系列的值
 
 可以存储多个不同类型的数据

@@ -2,7 +2,7 @@
 title: 手机端自适应解决方案-rem布局
 date: 2017-10-13 13:10:44
 tags: [手机端]
-categories: [编程,phone]
+categories: [前端]
 ---
 该方案使用相当简单，把下面这段已压缩过的 原生JS（仅1kb，源码已在文章底部更新，2017/5/3） 放到 HTML 的 head 标签中即可（注:不要手动设置viewport，该方案自动帮你设置）
 {%codeblock%}

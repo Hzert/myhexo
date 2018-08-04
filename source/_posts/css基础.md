@@ -1,8 +1,8 @@
 ---
 title: css基础
 date: 2017-11-28 15:36:14
-tags: [css基础]
-categories: [css,css基础,编程]
+tags: [css, 前端]
+categories: [css]
 ---
 ## CSS选择器有哪些
 

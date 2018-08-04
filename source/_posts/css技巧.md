@@ -1,8 +1,8 @@
 ---
 title: css技巧
 date: 2017-11-02 11:20:27
-tags: [css,前端]
-categories: [编程,css]
+tags: [css, 前端]
+categories: [css]
 ---
 
 ## input radio   单选框，多选框 纯css实现的好看的样式

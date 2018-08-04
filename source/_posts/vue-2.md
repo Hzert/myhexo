@@ -2,7 +2,7 @@
 title: vue组件及模板指令
 date: 2017-09-22 17:02:45
 tags: [vue]
-categories: [编程]
+categories: [前端, vue]
 ---
 
 ### vue组件的重要选项

@@ -2,7 +2,7 @@
 title: webpack vue-cli安装 mac vue-cli安装
 date: 2017-09-22 17:02:45
 tags: [vue]
-categories: [编程]
+categories: [前端, vue]
 ---
 ### 安装
 

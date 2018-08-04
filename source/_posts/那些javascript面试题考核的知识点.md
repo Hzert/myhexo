@@ -2,7 +2,7 @@
 title: 那些javascript面试题考核的知识点
 date: 2017-11-27 18:54:09
 tags: [javascript,前端]
-categories: [编程,javascript]
+categories: [前端面试题]
 ---
 ## 1.预解析
 
@@ -132,7 +132,9 @@ var arr=[];
 for(var i=0;i<10;i++ ){
     i<=1?arr.push(1):arr.push(arr[i-1]+arr[i-2]);
 }
-console.log(arr)3-2.数据排列比如 123454321 23456765432这个怎么做呢？当时我的做法的分两步写，先展示前面，再展示后面代码是//01234543210
+console.log(arr)
+3-2.数据排列比如 123454321 23456765432这个怎么做呢？当时我的做法的分两步写，先展示前面，再展示后面代码是
+//01234543210
 //先展示前面的   01234
 //n：开始的数字    m:结束的数字
 function num1(n,m){
@@ -149,12 +151,13 @@ function num2(n,m){
         console.log(i)
     }
 }
-num1(2,5)  //2345432这样代码太多了，后来研究了这种function num(n,m){
+num1(2,5)  //2345432这样代码太多了，后来研究了这种
+function num(n,m){
+  console.log(n);
+  if(n<m){
+    num(n+1,m);
     console.log(n);
-    if(n<m){
-        num(n+1,m);
-        console.log(n);
-    }
+  }
 }
 num(2,5)  //2345432解释如下1.首先执行num(2,5)，就是
 console.log(2); ->  num(3,5);  ->  console.log(2);      
@@ -190,7 +193,9 @@ var a=foo1();
 var b=foo2();
 console.log(a) //Object {bar: "hello"}
 console.log(b) //underfind
-//仔细看就知道了4-2网上看到的题目，我自己改造下 80%应聘者都不及格的JS面试题for (var i = 0; i < 5; i++) {
+//仔细看就知道了
+4-2网上看到的题目，我自己改造下 80%应聘者都不及格的JS面试题
+for (var i = 0; i < 5; i++) {
   console.log(i);
 }
 console.log(i);
@@ -249,3 +254,4 @@ console.log(i);
 //注意i是用let定义的，不是var
 
 {%endcodeblock%}
+

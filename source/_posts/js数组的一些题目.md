@@ -2,7 +2,7 @@
 title: js数组的一些题目
 date: 2018-03-02 15:57:43
 tags: [javascript, 前端]
-categories: [javascript, 前端]
+categories: [javascript]
 ---
 记录一些数组的题目，面试也许会遇到
 
@@ -184,5 +184,46 @@ var arr = [1,2,1,1,3,2,5]
     return !c(o)
   })
   console.log(d)
+
+{%endcodeblock%}
+
+## 从两个数组中取相同的元素
+{%codeblock%}
+var arr4 = [1,2,3,4,5,6,7,8]
+var arr5 = [2,3,4,5]
+
+// some() + filter() 方法处理
+
+  function a(item){
+    return arr5.some(function(v){
+      return v === item
+    })
+  }
+  var abc = arr4.filter(function(item){
+    return a(item)
+  })
+  console.log(abc) // [2,3,4,5]
+  // 用法跟上面的去重一样，用some方法进行判断符合的值，然后用filter方法进行筛选得到一个新数组
+
+
+// 传入两个数组，循环判断第一个数组的元素在第二个数组中有没有，有的话放入新的数组
+  function  FilterData(first,second){
+    var result = new Array(); // 创建新的数组
+    var newArray = second.toString();
+    for(var i=0;i<first.length;i++){
+      if(newArray.indexOf(first[i].toString())>-1){
+        esult.push(first[i]);
+      }      
+    }
+    return result;
+  }
+{%endcodeblock%}
+
+## 将下面数组中的7和8对调位置
+{%codeblock%}
+var arr6 = [1,2,3,4,5,6,7,8,9]
+
+arr6[6] = 8;
+arr[7] = 7;
 
 {%endcodeblock%}

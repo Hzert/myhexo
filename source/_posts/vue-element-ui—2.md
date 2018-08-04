@@ -2,7 +2,7 @@
 title: vue element-ui—2
 date: 2017-11-13 18:25:48
 tags: [vue,前端]
-categories: [编程]
+categories: [前端, vue]
 ---
 ## element ui 里的日期选择器获取值的格式问题
 1.官网的文档里有个 format="yyyy-MM-dd" 可以使用到 el-date-picker  日期选择组件内。

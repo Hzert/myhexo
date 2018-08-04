@@ -1,8 +1,8 @@
 ---
 title: js-遇到的问题
 date: 2018-01-09 15:16:36
-tags: [javacript]
-categories: [编程,javascript]
+tags: [javascript]
+categories: [遇到的问题]
 ---
 
 本篇纪录在工作中，或者平时学习的时候纪录的一些遇到的问题！

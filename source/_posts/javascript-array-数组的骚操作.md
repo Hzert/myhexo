@@ -1,8 +1,8 @@
 ---
 title: javascript-array-数组的骚操作
 date: 2017-11-22 16:47:13
-tags: [前端,数组,javascript]
-categories: [编程]
+tags: [前端, 数组, javascript]
+categories: [javascript]
 ---
 ## js 对象数组去重方法。
 1. reduce()方法去重
