@@ -34,6 +34,8 @@ widgets:
 links: 
   - title: 标题
     url: http://zhenhualiu.com
+  - title: 搬砖办公室
+    url: http://bzoffice.com/ 
 
 ## 静态文件目录
 js: js
